@@ -25,14 +25,14 @@ pwrss.f.regression(r2 = .13,
 
 
 pwrss.f.regression(r2 = .061,
-                   k = 6, # number of total predictors
+                   k = 29, # number of total predictors
                    power = 0.90,
                    alpha = 0.05)
 
 
 ### deceitfulness to predict gambling (Pizzini)
 pwrss.f.regression(r2 = .049,
-                   k = 4, # number of total predictors
+                   k = 29, # number of total predictors
                    power = 0.90,
                    alpha = 0.05)
 
@@ -41,7 +41,7 @@ pwrss.f.regression(r2 = .049,
 
 ### deceitfulness and perceptual dysregulation to predict gambling (Pizzini)
 pwrss.f.regression(r2 = .071,
-                   k = 5, # number of total predictors
+                   k = 29, # number of total predictors
                    power = 0.90,
                    alpha = 0.05)
 
@@ -50,7 +50,7 @@ pwrss.f.regression(r2 = .071,
 
 
 pwrss.f.regression(r2 = 0.208,
-                   k = 4, # number of total predictors
+                   k = 29, # number of total predictors
                    power = 0.90,
                    alpha = 0.05)
 
@@ -58,14 +58,14 @@ pwrss.f.regression(r2 = 0.208,
 
 ###Internet (Gervasi et al., 2017)
 pwrss.f.regression(r2 = 0.305,
-                   k = 9, # number of total predictors
+                   k = 29, # number of total predictors
                    power = 0.90,
                    alpha = 0.05)
 
 ##PiD-5 and overworking (Valls et al., 2023) calculated based on adjusted r squared: 1 - (1 - .05) * (235 - 5 - 1) / (235 - 1) = 0.07029915
 
 pwrss.f.regression(r2 = 0.07,
-                   k = 5, # number of total predictors
+                   k = 29, # number of total predictors
                    power = 0.90,
                    alpha = 0.05)
 
