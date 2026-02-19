@@ -30,6 +30,15 @@ pwrss.f.regression(r2 = .061,
                    alpha = 0.05)
 
 
+### studying and normal personality (big5) (Andreassen et al., 2013)
+
+
+pwrss.f.regression(r2 = .168,
+                   k = 29, # number of total predictors
+                   power = 0.90,
+                   alpha = 0.05)
+
+
 ### deceitfulness to predict gambling (Pizzini)
 pwrss.f.regression(r2 = .049,
                    k = 29, # number of total predictors
