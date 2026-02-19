@@ -14,7 +14,7 @@ library(pwrss)
 
 ```{r pressure, echo=FALSE}
 
-## workaholism and normal personality (r2 change when adding personality)
+## workaholism and normal personality (r2 change when adding personality) from our own masking and cancellation article
 pwrss.f.regression(r2 = .13,
                    k = 29, # number of total predictors
                    power = 0.90,
@@ -39,7 +39,7 @@ pwrss.f.regression(r2 = .168,
                    alpha = 0.05)
 
 
-### deceitfulness to predict gambling (Pizzini)
+### deceitfulness to predict gambling (Pizzini) ## this is only one facet of PID-5 so overly conservative
 pwrss.f.regression(r2 = .049,
                    k = 29, # number of total predictors
                    power = 0.90,
