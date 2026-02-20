@@ -16,7 +16,7 @@ library(pwrss)
 
 ## workaholism and normal personality (r2 change when adding personality) from our own masking and cancellation article
 pwrss.f.regression(r2 = .13,
-                   k = 29, # number of total predictors
+                   k = 28, # number of total predictors
                    power = 0.90,
                    alpha = 0.05)
 
@@ -25,7 +25,7 @@ pwrss.f.regression(r2 = .13,
 
 
 pwrss.f.regression(r2 = .061,
-                   k = 29, # number of total predictors
+                   k = 28, # number of total predictors
                    power = 0.90,
                    alpha = 0.05)
 
@@ -34,14 +34,14 @@ pwrss.f.regression(r2 = .061,
 
 
 pwrss.f.regression(r2 = .168,
-                   k = 29, # number of total predictors
+                   k = 28, # number of total predictors
                    power = 0.90,
                    alpha = 0.05)
 
 
 ### deceitfulness to predict gambling (Pizzini) ## this is only one facet of PID-5 so overly conservative
 pwrss.f.regression(r2 = .049,
-                   k = 29, # number of total predictors
+                   k = 28, # number of total predictors
                    power = 0.90,
                    alpha = 0.05)
 
@@ -50,7 +50,7 @@ pwrss.f.regression(r2 = .049,
 
 ### deceitfulness and perceptual dysregulation to predict gambling (Pizzini)
 pwrss.f.regression(r2 = .071,
-                   k = 29, # number of total predictors
+                   k = 28, # number of total predictors
                    power = 0.90,
                    alpha = 0.05)
 
@@ -59,7 +59,7 @@ pwrss.f.regression(r2 = .071,
 
 
 pwrss.f.regression(r2 = 0.208,
-                   k = 29, # number of total predictors
+                   k = 28, # number of total predictors
                    power = 0.90,
                    alpha = 0.05)
 
@@ -67,14 +67,14 @@ pwrss.f.regression(r2 = 0.208,
 
 ###Internet (Gervasi et al., 2017)
 pwrss.f.regression(r2 = 0.305,
-                   k = 29, # number of total predictors
+                   k = 28, # number of total predictors
                    power = 0.90,
                    alpha = 0.05)
 
-##PiD-5 and overworking (Valls et al., 2023) calculated based on adjusted r squared: 1 - (1 - .05) * (235 - 5 - 1) / (235 - 1) = 0.07029915
+##PiD-5 and overworking (Valls et al., 2023) calculated based on adjusted r squared: 1 - (1 - .05) * (235 - 5 - 1) / (235 - 1) = 0.07028915
 
 pwrss.f.regression(r2 = 0.07,
-                   k = 29, # number of total predictors
+                   k = 28, # number of total predictors
                    power = 0.90,
                    alpha = 0.05)
 
