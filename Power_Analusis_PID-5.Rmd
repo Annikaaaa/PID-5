@@ -77,6 +77,105 @@ pwrss.f.regression(r2 = 0.07,
                    k = 28, # number of total predictors
                    power = 0.90,
                    alpha = 0.05)
+### Power simulation with all possible values r from 0.025 -.15 and k from 4 to 30
+
+library(pwrss)
+
+## k = 4
+
+pwrss.f.regression(r2 = .025,
+                   k = 4,
+                   power = 0.90,
+                   alpha = 0.05)
+
+pwrss.f.regression(r2 = .05,
+                   k = 4,
+                   power = 0.90,
+                   alpha = 0.05)
+
+pwrss.f.regression(r2 = .10,
+                   k = 4,
+                   power = 0.90,
+                   alpha = 0.05)
+
+pwrss.f.regression(r2 = .15,
+                   k = 4,
+                   power = 0.90,
+                   alpha = 0.05)
+
+pwrss.f.regression(r2 = .20,
+                   k = 4,
+                   power = 0.90,
+                   alpha = 0.05)
+
+pwrss.f.regression(r2 = .50,
+                   k = 4,
+                   power = 0.90,
+                   alpha = 0.05)
+
+## k = 10
+
+pwrss.f.regression(r2 = .025,
+                   k = 10,
+                   power = 0.90,
+                   alpha = 0.05)
+
+pwrss.f.regression(r2 = .05,
+                   k = 10,
+                   power = 0.90,
+                   alpha = 0.05)
+
+pwrss.f.regression(r2 = .10,
+                   k = 10,
+                   power = 0.90,
+                   alpha = 0.05)
+
+pwrss.f.regression(r2 = .15,
+                   k = 10,
+                   power = 0.90,
+                   alpha = 0.05)
+
+pwrss.f.regression(r2 = .20,
+                   k = 10,
+                   power = 0.90,
+                   alpha = 0.05)
+
+pwrss.f.regression(r2 = .50,
+                   k = 10,
+                   power = 0.90,
+                   alpha = 0.05)
+
+## k = 30
+
+pwrss.f.regression(r2 = .025,
+                   k = 30,
+                   power = 0.90,
+                   alpha = 0.05)
+
+pwrss.f.regression(r2 = .05,
+                   k = 30,
+                   power = 0.90,
+                   alpha = 0.05)
+
+pwrss.f.regression(r2 = .10,
+                   k = 30,
+                   power = 0.90,
+                   alpha = 0.05)
+
+pwrss.f.regression(r2 = .15,
+                   k = 30,
+                   power = 0.90,
+                   alpha = 0.05)
+
+pwrss.f.regression(r2 = .20,
+                   k = 30,
+                   power = 0.90,
+                   alpha = 0.05)
+
+pwrss.f.regression(r2 = .50,
+                   k = 30,
+                   power = 0.90,
+                   alpha = 0.05)
 
 
 ```
